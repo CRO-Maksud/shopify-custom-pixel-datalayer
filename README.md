@@ -19,13 +19,13 @@ Step 3: Paste and Save
 **Your data layer and tracking setup are now live and connected via Shopify's Customer Pixels!
 
 
-To change your Google Tag Manager (GTM) ID, you just need to replace the existing ID (GTM-K3BWVM8) with your own GTM container ID in the code.
+To change your Google Tag Manager (GTM) ID, you just need to replace the existing ID (GTM-######) with your own GTM container ID in the code.
 
 Where to find it in your code:
 Near the top of your shopify-datalayer.js file, inside the GTM script loader function, you will see your current GTM ID at the very bottom:
 
 JavaScript
-})(window, document, 'script', 'dataLayer', 'GTM-K3BWVM8'); // <--- Change this ID
+})(window, document, 'script', 'dataLayer', 'GTM-#####'); // <--- Change this ID
 How to update it:
 Option A: Update it directly in GitHub
 
