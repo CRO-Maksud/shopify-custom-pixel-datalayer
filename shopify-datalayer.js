@@ -34,7 +34,7 @@ if (init?.context) {
   } else {
     (d.head || d.body || d.documentElement).appendChild(j);
   }
-})(window, document, 'script', 'dataLayer', 'GTM-K3BWVM8');
+})(window, document, 'script', 'dataLayer', 'GTM-#######');
 
 // Enabled Tracking Platforms
 const trackingPlatform = ["Facebook", "Pinterest", "Snapchat"];
